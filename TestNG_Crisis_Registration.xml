@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener
+			class-name="com.qa.tiatros.report.ExtentReportListeners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.tiatros.cisis.registration.testcase.TC01" />
+			<class name="com.qa.tiatros.cisis.registration.testcase.TC02" />
+			<class name="com.qa.tiatros.cisis.registration.testcase.TC03" />
+			<class name="com.qa.tiatros.cisis.registration.testcase.TC04" />
+			<class name="com.qa.tiatros.cisis.registration.testcase.TC05" />
+		</classes>
+	</test>
+</suite> 
